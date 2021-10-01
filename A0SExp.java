@@ -160,7 +160,7 @@ public class A0SExp {
      * @param y The SExp y.
      * @return Equal: <code>true</code>, Not equal: <code>false</code>.
      */
-    static public boolean equal(SExp x, SExp y) {
+    public static boolean equal(SExp x, SExp y) {
         if (x.isNil()) {
             return y.isNil();
         }
